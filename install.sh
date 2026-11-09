@@ -231,7 +231,7 @@ request("add", {
             "serverNames": [domain],
             "privateKey": private[1],
             "shortIds": [secrets.token_hex(8)],
-            "settings": {"publicKey": public[1], "fingerprint": "chrome", "spiderX": "/"},
+            "settings": {"publicKey": public[1], "fingerprint": "firefox", "spiderX": "/"},
         },
     }),
     "sniffing": json.dumps({"enabled": False, "destOverride": []}),
